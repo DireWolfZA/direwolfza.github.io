@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="refresh" CONTENT="0;url={{page.dest}}">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <title>Redirect</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://cdn.shopify.com" crossorigin="">
+        <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin="">
+        <style>
+            @font-face {
+                font-family: "Avenir Next";
+                font-weight: 500;
+                font-style: normal;
+                font-display: swap;
+                src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n5.972a96b7a049f12c89d6d1cd0e1b6c9211f7ba14.woff2?h1=ZGlyZXdvbGYuY28uemE&hmac=89cb164d0e45dc0fc249965227ce833943cd3299117199e1bbded7294e0cabfb") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n5.9e88d20fa9eb66ba268ac60ab013006ef69a310a.woff?h1=ZGlyZXdvbGYuY28uemE&hmac=62e7f0a3f51edb7eef2d0bdba173734852d709d81a8c630a86487c92c56d59b0") format("woff");
+            }
+            @font-face {
+                font-family: "Avenir Next";
+                font-weight: 700;
+                font-style: normal;
+                font-display: swap;
+                src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n7.8cfc646eab1e39e2d81a26284624600ccae49d55.woff2?h1=ZGlyZXdvbGYuY28uemE&hmac=fcf555a3bc25029655d94b8554fb826cf0f9a3e2478a007f9dab651d76fae0be") format("woff2"), url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n7.25b10f8089bc87dfd8e50a7c68b433da7a04bc87.woff?h1=ZGlyZXdvbGYuY28uemE&hmac=dcd2859ff401ca74669b86f3d21ff6dd5bd6f0e0f94bd57a248dac2a4e647036") format("woff");
+            }
+            @font-face {
+                font-family: "Avenir Next";
+                font-weight: 500;
+                font-style: italic;
+                font-display: swap;
+                src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i5.2d1a6d537e5b485482d6bcca34a56cc10d441a55.woff2?h1=ZGlyZXdvbGYuY28uemE&hmac=103d8a3536a2a54217ec2d5a53546f0e519d351902d911f887a7e655e74f3f88") format("woff2"),       url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i5.fcfa37c68ca483c41031623bfae4701d99bb4b95.woff?h1=ZGlyZXdvbGYuY28uemE&hmac=8649b9aa45e4f99eb3492332029816ad1a978b1cd94d1900fd4cf5f19c81b6e2") format("woff");
+            }
+            @font-face {
+                font-family: "Avenir Next";
+                font-weight: 700;
+                font-style: italic;
+                font-display: swap;
+                src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i7.3a67996166b5b7f1b7cc3b35490ebd6824908dc5.woff2?h1=ZGlyZXdvbGYuY28uemE&hmac=c86f4aa69e66f1ca89f6b7a7d7c3e003c9bc5773c7d90fac21caadf27f11e2e0") format("woff2"),       url("https://fonts.shopifycdn.com/avenir_next/avenirnext_i7.b872875ff437f0efb4c2321d0016eaa726b649ae.woff?h1=ZGlyZXdvbGYuY28uemE&hmac=1eced9257f6bd54eef34f4b15bfdab2660052c4cbebe7df32f8f732b3222ca8e") format("woff");
+            }
+            @font-face {
+                font-family: "Avenir Next";
+                font-weight: 500;
+                font-style: normal;
+                font-display: swap;
+                src: url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n5.972a96b7a049f12c89d6d1cd0e1b6c9211f7ba14.woff2?h1=ZGlyZXdvbGYuY28uemE&hmac=89cb164d0e45dc0fc249965227ce833943cd3299117199e1bbded7294e0cabfb") format("woff2"),       url("https://fonts.shopifycdn.com/avenir_next/avenirnext_n5.9e88d20fa9eb66ba268ac60ab013006ef69a310a.woff?h1=ZGlyZXdvbGYuY28uemE&hmac=62e7f0a3f51edb7eef2d0bdba173734852d709d81a8c630a86487c92c56d59b0") format("woff");
+            }
+
+            :root {
+                --font-body-family: "Avenir Next", sans-serif;
+                --font-body-style: normal;
+                --font-body-weight: 500;
+
+                --font-heading-family: "Avenir Next", sans-serif;
+                --font-heading-style: normal;
+                --font-heading-weight: 500;
+
+                --color-base-text: #1f201d;
+                --color-base-text-rgb: 31, 32, 29;
+                --color-base-background-1: #FFFFFF;
+                --color-base-background-1-rgb: 255, 255, 255;
+                --color-base-background-2: #FAF1E9;
+                --color-base-background-2-rgb: 250, 241, 233;
+                --color-base-solid-button-labels: #FFFFFF;
+                --color-base-solid-button-labels-rgb: 255, 255, 255;
+                --color-base-outline-button-labels: #445958;
+                --color-base-outline-button-labels-rgb: 68, 89, 88;
+                --color-base-accent-1: #9ba5a5;
+                --color-base-accent-1-rgb: 155, 165, 165;
+                --color-base-accent-2: #9D572C;
+                --color-base-accent-2-rgb: 157, 87, 44;
+
+                --color-base-text-opacity-10-percent: #e9e9e8;
+                --color-base-text-opacity-20-percent: #d2d2d2;
+                --color-base-text-opacity-55-percent: #848483;
+                --color-base-text-opacity-85-percent: #41413f;
+                --color-base-accent-1-opacity-10-percent: #f5f6f6;
+                --color-base-accent-2-opacity-10-percent: #f5eeea;
+            }
+
+            html {
+                box-sizing: border-box;
+                font-size: 62.5%;
+                height: 100%;
+            }
+            @media screen and (min-width: 750px) {
+                body {
+                    font-size: 1.6rem;
+                }
+            }
+            body {
+                display: grid;
+                grid-template-rows: auto auto 1fr auto;
+                grid-template-columns: 100%;
+                min-height: 100%;
+                margin: 0;
+                font-size: 1.5rem;
+                letter-spacing: 0.06rem;
+                line-height: 1.8;
+                font-family: var(--font-body-family);
+                font-style: var(--font-body-style);
+                font-weight: var(--font-body-weight);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Please wait...</h1>
+        <img src="/img/loading1.gif" alt="Loading Image" />
+    </body>
+</html>
